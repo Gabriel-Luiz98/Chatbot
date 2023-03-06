@@ -1,0 +1,51 @@
+{"intents":[
+    { "tag": "saudacao",
+      "patterns":["Ola","Opa","Oi", "tudo bem"],
+      "responses": ["Oi","Ola"]
+    },
+    { "tag": "despedida",
+      "patterns":["valeu","tchau","Obrigado","tks"],
+      "responses": ["Ate breve","Falou"]
+    },
+    {"tag": "definicao_tcc",
+     "patterns":["O que é o tcc?", "Para que serve o tcc?"],
+     "responses":["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solucao para uma questao que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduacao. A solucao proposta deve ter como base o metodo cientifico"]
+    },
+    {"tag": "entregas_tcc",
+     "patterns":["O que deve ser entregue no tcc?", "O que é esperado que seja entregue no tcc?", "O que é esperado como resultado no tcc?"],
+     "responses":["E esperado que entrega do tcc seja uma monografia e um programa ou artefato desenvolvido pelos alunos"]
+    },
+    {"tag": "monografia",
+     "patterns":["O que uma monografia deve apresentar?", "O que deve ter em uma monografia?"],
+     "responses":["A monografia deve apresentar: \n1 - uma introducao e objetivos do trabalho \n2 - conceituacao do problema \n3 - revisao da literatura, que pode incluir um benchmark de solucoes de mercado \n4 - desenvolvimento de arquitetura de solucao, engenharia de software e \ndemais tecnicas que descrevam a solucao proposta \n5 - discussao dos resultados e consideracoes finais"]
+    },
+    {"tag": "artefato",
+     "patterns":["O que é o artefato a ser entregue no tcc?", "Qual artefato a ser entregue no tcc?"],
+     "responses":["O artefato deve ser uma solucao computacional elaborada em um desenvolvimento de um software (e eventualmente o desenvolvimento de um hardware)"]
+    },
+    {"tag": "grupo_tcc",
+     "patterns":["Quantos integrantes deve ter o grupo?"],
+     "responses":["O grupo do tcc deve ser composto de 4 alunos"]
+    },
+    {"tag": "orientador",
+     "patterns":["Quem e o orientador do tcc?", "como e a escolha do professor orientador?", "quem pode orientar meu tcc?"],
+     "responses":["Todo grupo possui um professor orientador escolhido pelos próprios componentes do grupo, que pode ser de qualquer departamento"]
+    },
+    {"tag": "tema",
+     "patterns":["Qual pode ser o tema do tcc?", "Qual tema posso escolher?", "Como é a escolha do tema do projeto?"],
+     "responses":["Os proprios alunos escolhem o tema do tcc, que pode ser qualquer assunto relacionado ao curso em um escopo que possa ser desenvolvido"]
+    },
+    {"tag": "professor_disciplina",
+     "patterns":["Qual a funcao do professor da disciplina?"],
+     "responses":["Os professores da disciplina de TCC devem:\n1- apresentar semanalmente topicos relevantes sobre metodologia cientifica e organizacao do trabalho \n2- acompanham a evolucao de cada grupo, auxiliando os alunos na conducao das atividades (sem interferir na orientacao). \n3- Validar as entregas no MOODLE. \n4- Informar ao professor orientador eventuais desvios ou situacoes que mereçam atencao e/ou possam prejudicar a evolucao do trabalho ou convivencia do grupo"]
+    },
+    {"tag": "avaliacao",
+     "patterns":["como sera feita a avaliacao do tcc?", "como sera feita a avaliacao do projeto?"],
+     "responses":["Os alunos tem dois semestres para desenvolver todas as atividades relacionadas ao trabalho, e no final de cada semestre serao avaliados por uma banca de professores, e entao A banca avaliara a monografia e a solucao implementada com base em um conjunto de premissas de avaliacao determinadas e conhecidas tanto pelos professores quanto pelos alunos"]
+    },
+    {"tag": "Entrga_prazo",
+     "patterns":["para quando e o projeto?", "qual o prazo do tcc?", "para quando e o tcc?", "qual o prazo do projeto?"],
+     "responses":["A entrega do relatorio final e para o dia 11 de junho de 2023"]
+    }
+  ]
+  }
